@@ -1,5 +1,4 @@
-Here is a complete, visually enhanced GitHub profile README code with improved visuals, animations, color combinations, and an upgraded "About Me" section.
-```markdown
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                  HARI MANIKANTA — GITHUB PROFILE                -->
 <!--              PREMIUM VISUALS · ANIMATIONS · GLASS MORPH         -->
@@ -430,4 +429,4 @@ print(me.introduce())
   <img src="https://img.shields.io/badge/Last%20Updated-April%202026-534AB7?style=flat-square&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-in%20Guntur%2C%20AP-00d9ff?style=flat-square&labelColor=0D1117" />
 </div>
-```
+
