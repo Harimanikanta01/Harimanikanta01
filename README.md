@@ -35,9 +35,9 @@
 ---
 
 <!-- ╔══════════════════ VIBRANT ABOUT ME SECTION ══════════════════╗ -->
-<!-- COMPLETELY REDESIGNED: Animated gradients, floating elements, neon borders -->
+<!-- ENHANCED PYTHON CLASS SECTION WITH ANIMATIONS & COLORS -->
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px"> <span style="background: linear-gradient(135deg, #00d9ff, #ff6b6b, #534AB7, #f9ca24); background-clip: text; -webkit-background-clip: text; color: transparent; animation: gradientShift 5s ease infinite;">About Me — The Code Alchemist</span>
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px"> <span style="background: linear-gradient(135deg, #00d9ff, #ff6b6b, #534AB7, #f9ca24, #00ff88); background-clip: text; -webkit-background-clip: text; color: transparent; animation: gradientShift 5s ease infinite;">About Me — The Code Alchemist</span>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=18&duration=2000&pause=400&color=FF6B6B&center=true&vCenter=true&width=700&lines=%F0%9F%8E%AF+Turning+coffee+into+code+☕;%E2%9A%A1+286ms+→+2ms+%7C+99.3%25+faster+🚀;%F0%9F%8C%8A+AWS+%7C+Terraform+%7C+Docker+Master;%F0%9F%A4%96+Building+the+future+with+AI+%26+Cloud;%F0%9F%92%A1+%22Slow+code+is+the+only+sin%22" alt="Animated About Line" />
@@ -47,102 +47,139 @@
 
 <!-- MAIN ABOUT CARD WITH FLOATING EFFECT -->
 <div align="center">
-  <div style="background: linear-gradient(135deg, rgba(0,217,255,0.08), rgba(255,107,107,0.08), rgba(83,74,183,0.08)); border-radius: 48px; padding: 30px; backdrop-filter: blur(12px); border: 1px solid rgba(0,217,255,0.3); box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5), 0 0 30px rgba(0,217,255,0.1); transition: all 0.4s ease; width: 100%;">
+  <div style="background: linear-gradient(135deg, rgba(0,217,255,0.08), rgba(255,107,107,0.08), rgba(83,74,183,0.08), rgba(0,255,136,0.05)); border-radius: 48px; padding: 30px; backdrop-filter: blur(12px); border: 1px solid rgba(0,217,255,0.3); box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5), 0 0 30px rgba(0,217,255,0.1), 0 0 15px rgba(255,107,107,0.1); transition: all 0.4s ease; width: 100%;">
     
     <table width="100%" style="background: transparent;">
       <tr>
         <td width="55%" valign="top" style="padding: 20px;">
           
-<!-- ANIMATED CODE WINDOW WITH NEON GLOW -->
-<div style="background: #0a0c10; border-radius: 28px; padding: 20px; border: 1px solid #00d9ff; box-shadow: 0 0 20px rgba(0,217,255,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 40px rgba(0,217,255,0.4)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(0,217,255,0.2)'">
+<!-- 🔥 ENHANCED ANIMATED PYTHON CODE WINDOW WITH RAINBOW GLOW 🔥 -->
+<div style="background: linear-gradient(145deg, #0a0c10, #0D1117); border-radius: 28px; padding: 20px; border: 2px solid transparent; background-clip: padding-box; animation: rainbowBorder 4s ease infinite; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 50px rgba(0,217,255,0.5)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
   
+<!-- Animated gradient overlay -->
+<div style="position: absolute; inset: -2px; border-radius: 28px; padding: 2px; background: linear-gradient(90deg, #00d9ff, #ff6b6b, #534AB7, #f9ca24, #00ff88, #00d9ff); background-size: 300% 100%; animation: gradientMove 3s ease infinite; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none;"></div>
+
+<div style="position: relative; z-index: 2;">
+  
+<!-- Animated window controls with pulse effect -->
 <div style="display: flex; gap: 8px; margin-bottom: 15px;">
-  <span style="width: 12px; height: 12px; background: #ff5f56; border-radius: 50%; display: inline-block;"></span>
-  <span style="width: 12px; height: 12px; background: #ffbd2e; border-radius: 50%; display: inline-block;"></span>
-  <span style="width: 12px; height: 12px; background: #27c93f; border-radius: 50%; display: inline-block;"></span>
-  <span style="color: #666; font-size: 12px; margin-left: 10px;">hari_profile.py</span>
+  <span style="width: 14px; height: 14px; background: #ff5f56; border-radius: 50%; display: inline-block; animation: pulseRed 1.5s infinite;"></span>
+  <span style="width: 14px; height: 14px; background: #ffbd2e; border-radius: 50%; display: inline-block; animation: pulseYellow 1.5s infinite 0.2s;"></span>
+  <span style="width: 14px; height: 14px; background: #27c93f; border-radius: 50%; display: inline-block; animation: pulseGreen 1.5s infinite 0.4s;"></span>
+  <span style="color: #888; font-size: 12px; margin-left: 10px; font-family: monospace;">
+    <span style="color:#00d9ff;">hari_profile.py</span> 
+    <span style="color:#ff6b6b;">●</span> ACTIVE
+  </span>
 </div>
 
-```python
-#!/usr/bin/env python3
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#   🚀 HARI MANIKANTA  |  The Code Alchemist
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<!-- Python code with syntax highlighting and animated line numbers -->
+<div style="font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; line-height: 1.6;">
+  
+  <div style="color: #888;">#!/usr/bin/env python3</div>
+  <div style="color: #888;"># <span style="background: linear-gradient(90deg, #00d9ff, #ff6b6b); background-clip: text; -webkit-background-clip: text; color: transparent;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span></div>
+  <div style="color: #00d9ff;">#   🚀 HARI MANIKANTA  |  The Code Alchemist</div>
+  <div style="color: #888;"># <span style="background: linear-gradient(90deg, #534AB7, #f9ca24); background-clip: text; -webkit-background-clip: text; color: transparent;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span></div>
+  <div style="color: #888;">#</div>
+  
+  <div style="color: #ff6b6b; font-weight: bold;">class</div> <div style="color: #00d9ff; font-weight: bold;">HariManikanta</div><div style="color: #fff;">:</div>
+  <div style="margin-left: 20px;">
+    <div style="color: #ff6b6b; font-weight: bold;">def</div> <div style="color: #f9ca24;">__init__</div><div style="color: #fff;">(self):</div>
+    <div style="margin-left: 20px;">
+      <div><span style="color: #00d9ff;">self.name</span> <span style="color: #ff6b6b;">=</span> <span style="color: #f9ca24;">"Hari Manikanta"</span> <span style="color: #888;"># ✨ The Creator</span></div>
+      <div><span style="color: #00d9ff;">self.role</span> <span style="color: #ff6b6b;">=</span> <span style="color: #f9ca24;">"Full Stack &amp; AI/ML Engineer"</span> <span style="color: #888;"># 🎯 Multi-faceted</span></div>
+      <div><span style="color: #00d9ff;">self.location</span> <span style="color: #ff6b6b;">=</span> <span style="color: #f9ca24;">"Guntur, AP 🇮🇳"</span> <span style="color: #888;"># 📍 Home</span></div>
+      <div><span style="color: #00d9ff;">self.energy</span> <span style="color: #ff6b6b;">=</span> <span style="color: #f9ca24;">"⚡ Infinite ⚡"</span> <span style="color: #888;"># 🔥 Never-ending</span></div>
+      <div><span style="color: #00d9ff;">self.motto</span> <span style="color: #ff6b6b;">=</span> <span style="color: #f9ca24;">"Every millisecond tells a story"</span> <span style="color: #888;"># ⏱️</span></div>
+      <div style="color: #888;">#</div>
+      <div style="color: #888;"># 🛠️ Technical arsenal</div>
+      <div><span style="color: #00d9ff;">self.tech_stack</span> <span style="color: #ff6b6b;">=</span> <span style="color: #fff;">{</span></div>
+      <div style="margin-left: 20px;">
+        <div><span style="color: #f9ca24;">"🎨 Frontend"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"React, Tailwind, Framer Motion"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"⚙️ Backend"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"Node.js, Express, FastAPI"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"🤖 AI/ML"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"RAG, LangChain, AWS Bedrock"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"☁️ Cloud"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"AWS, Terraform, Docker"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"🗄️ DB"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"MongoDB, Redis, FAISS"</span></div>
+      </div>
+      <div><span style="color: #fff;">}</span></div>
+      <div style="color: #888;">#</div>
+      <div style="color: #888;"># ✨ Performance magic</div>
+      <div><span style="color: #00d9ff;">self.achievements</span> <span style="color: #ff6b6b;">=</span> <span style="color: #fff;">{</span></div>
+      <div style="margin-left: 20px;">
+        <div><span style="color: #f9ca24;">"🚀 API Latency"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"286ms → 2ms (99.3% ⚡)"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"📱 ML Predictor"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"255ms → 2ms (98% 🚀)"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"🔍 Search Speed"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"+27% (MongoDB Indexing)"</span><span style="color: #fff;">,</span></div>
+        <div><span style="color: #f9ca24;">"🏗️ Deployment"</span><span style="color: #ff6b6b;">:</span> <span style="color: #f9ca24;">"-40% effort (Terraform)"</span></div>
+      </div>
+      <div><span style="color: #fff;">}</span></div>
+    </div>
+    <div style="color: #888;">#</div>
+    <div><span style="color: #ff6b6b; font-weight: bold;">def</span> <span style="color: #f9ca24;">superpower</span><span style="color: #fff;">(self):</span></div>
+    <div style="margin-left: 20px;">
+      <div><span style="color: #ff6b6b; font-weight: bold;">return</span> <span style="color: #f9ca24;">"I make slow systems fly 🦸‍♂️"</span></div>
+    </div>
+    <div style="color: #888;">#</div>
+    <div><span style="color: #ff6b6b; font-weight: bold;">def</span> <span style="color: #f9ca24;">greet</span><span style="color: #fff;">(self):</span></div>
+    <div style="margin-left: 20px;">
+      <div><span style="color: #ff6b6b; font-weight: bold;">return</span> <span style="color: #f9ca24;">f"✨ {self.name} • {self.motto} ✨"</span></div>
+    </div>
+  </div>
+  <div style="color: #888;">#</div>
+  <div style="color: #ff6b6b; font-weight: bold;">me</div> <div style="color: #ff6b6b;">=</div> <div style="color: #00d9ff;">HariManikanta</div><div style="color: #fff;">()</div>
+  <div><span style="color: #ff6b6b; font-weight: bold;">print</span><span style="color: #fff;">(me.greet())</span></div>
+  <div><span style="color: #ff6b6b; font-weight: bold;">print</span><span style="color: #fff;">(</span><span style="color: #f9ca24;">f"⚡ Superpower: {me.superpower()}"</span><span style="color: #fff;">)</span></div>
+  <div style="color: #888;"># Output → ✨ Hari Manikanta • Every millisecond tells a story ✨</div>
+  <div style="color: #888;">#         ⚡ Superpower: I make slow systems fly 🦸‍♂️</div>
+  
+  <!-- Animated cursor blink effect -->
+  <div style="display: inline-block; width: 8px; height: 16px; background: #00d9ff; animation: blink 1s infinite;"></div>
+</div>
 
-class HariManikanta:
-    
-    def __init__(self):
-        self.name = "Hari Manikanta"
-        self.role = "Full Stack & AI/ML Engineer"
-        self.location = "Guntur, AP 🇮🇳"
-        self.energy = "⚡ Infinite ⚡"
-        self.motto = "Every millisecond tells a story"
-        
-        # Technical arsenal
-        self.tech_stack = {
-            "🎨 Frontend": "React, Tailwind, Framer Motion",
-            "⚙️ Backend": "Node.js, Express, FastAPI",
-            "🤖 AI/ML": "RAG, LangChain, AWS Bedrock",
-            "☁️ Cloud": "AWS, Terraform, Docker",
-            "🗄️ DB": "MongoDB, Redis, FAISS"
-        }
-        
-        # Performance magic ✨
-        self.achievements = {
-            "API Latency": "286ms → 2ms (99.3% ⚡)",
-            "ML Predictor": "255ms → 2ms (98% 🚀)",
-            "Search Speed": "+27% (MongoDB Indexing)",
-            "Deployment": "-40% effort (Terraform)"
-        }
-    
-    def superpower(self):
-        return "I make slow systems fly 🦸‍♂️"
-    
-    def greet(self):
-        return f"✨ {self.name} • {self.motto} ✨"
-
-me = HariManikanta()
-print(me.greet())
-print(f"⚡ Superpower: {me.superpower()}")
-# Output → ✨ Hari Manikanta • Every millisecond tells a story ✨
-#         ⚡ Superpower: I make slow systems fly 🦸‍♂️
-```
+</div>
 </div>
         </td>
         <td width="45%" valign="top" style="padding: 20px;">
           
 <!-- ANIMATED STATS CARD WITH RAINBOW BORDER -->
-<div style="background: linear-gradient(145deg, #0D1117, #0a0c10); border-radius: 32px; padding: 25px; border: 2px solid transparent; background-clip: padding-box; animation: borderRotate 4s linear infinite; position: relative;">
-  <div style="position: absolute; inset: -2px; border-radius: 32px; padding: 2px; background: linear-gradient(90deg, #00d9ff, #ff6b6b, #534AB7, #f9ca24, #00d9ff); background-size: 300% 100%; animation: gradientMove 3s ease infinite; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none;"></div>
+<div style="background: linear-gradient(145deg, #0D1117, #0a0c10); border-radius: 32px; padding: 25px; border: 2px solid transparent; background-clip: padding-box; position: relative;">
+  <div style="position: absolute; inset: -2px; border-radius: 32px; padding: 2px; background: linear-gradient(90deg, #00d9ff, #ff6b6b, #534AB7, #f9ca24, #00ff88, #00d9ff); background-size: 300% 100%; animation: gradientMove 3s ease infinite; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none;"></div>
   
   <h3 align="center" style="margin:0 0 20px 0;">
-    <span style="background: linear-gradient(90deg, #00d9ff, #ff6b6b, #f9ca24); background-clip: text; -webkit-background-clip: text; color: transparent; animation: shimmer 2s infinite;">✨ VITAL STATS ✨</span>
+    <span style="background: linear-gradient(90deg, #00d9ff, #ff6b6b, #f9ca24, #00ff88); background-clip: text; -webkit-background-clip: text; color: transparent; animation: shimmer 2s infinite;">✨ VITAL STATS ✨</span>
   </h3>
   
   <div style="display: flex; flex-direction: column; gap: 15px;">
-    <div style="background: rgba(0,217,255,0.1); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px);">
+    <div style="background: linear-gradient(135deg, rgba(0,217,255,0.15), rgba(0,217,255,0.05)); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
       <span style="font-size: 24px;">📍</span> <strong style="color:#00d9ff;">Location:</strong> <span style="color:#fff">Guntur, Andhra Pradesh 🇮🇳</span>
     </div>
-    <div style="background: rgba(255,107,107,0.1); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px);">
+    <div style="background: linear-gradient(135deg, rgba(255,107,107,0.15), rgba(255,107,107,0.05)); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
       <span style="font-size: 24px;">🎓</span> <strong style="color:#ff6b6b;">University:</strong> <span style="color:#fff">Vignan University (CSE 2023–2027)</span>
     </div>
-    <div style="background: rgba(83,74,183,0.1); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px);">
+    <div style="background: linear-gradient(135deg, rgba(83,74,183,0.15), rgba(83,74,183,0.05)); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
       <span style="font-size: 24px;">💼</span> <strong style="color:#534AB7;">Status:</strong> <span style="color:#fff">🔓 Open for Internships / Full-time</span>
     </div>
-    <div style="background: rgba(249,202,36,0.1); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px);">
+    <div style="background: linear-gradient(135deg, rgba(249,202,36,0.15), rgba(249,202,36,0.05)); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
       <span style="font-size: 24px;">📧</span> <strong style="color:#f9ca24;">Email:</strong> <span style="color:#fff">punugulahari1@gmail.com</span>
     </div>
-    <div style="background: rgba(0,217,255,0.1); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px);">
-      <span style="font-size: 24px;">📦</span> <strong style="color:#00d9ff;">Repositories:</strong> <span style="color:#fff">26+ production-ready projects</span>
+    <div style="background: linear-gradient(135deg, rgba(0,255,136,0.15), rgba(0,255,136,0.05)); border-radius: 16px; padding: 12px 16px; backdrop-filter: blur(4px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+      <span style="font-size: 24px;">📦</span> <strong style="color:#00ff88;">Repositories:</strong> <span style="color:#fff">26+ production-ready projects</span>
     </div>
   </div>
   
   <br/>
   
-  <div style="text-align: center; background: linear-gradient(135deg, rgba(0,217,255,0.15), rgba(255,107,107,0.15)); border-radius: 24px; padding: 20px; margin-top: 10px;">
-    <div style="font-size: 48px; animation: bounce 2s infinite;">⚡</div>
-    <h4 style="color:#00d9ff; margin: 5px 0;">99.3% FASTER</h4>
-    <p style="color:#ccc; margin:0">286ms → 2ms · Redis Caching Magic</p>
+  <!-- Animated achievement counter -->
+  <div style="text-align: center; background: linear-gradient(135deg, rgba(0,217,255,0.2), rgba(255,107,107,0.2), rgba(0,255,136,0.1)); border-radius: 24px; padding: 20px; margin-top: 10px; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%); animation: rotate 10s linear infinite;"></div>
+    <div style="position: relative; z-index: 2;">
+      <div style="font-size: 52px; animation: bounce 2s infinite;">⚡</div>
+      <h3 style="color:#00d9ff; margin: 5px 0; font-size: 28px;">99.3% FASTER</h3>
+      <p style="color:#ccc; margin:0">286ms → 2ms · Redis Caching Magic</p>
+      <div style="margin-top: 15px;">
+        <div style="background: #1a1a2e; border-radius: 20px; height: 8px; overflow: hidden;">
+          <div style="width: 99.3%; height: 100%; background: linear-gradient(90deg, #00d9ff, #00ff88); animation: loadingBar 1.5s ease-out;"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
         </td>
@@ -152,28 +189,28 @@ print(f"⚡ Superpower: {me.superpower()}")
     <!-- WHAT I'M BUILDING - ANIMATED CARDS -->
     <div style="margin-top: 30px;">
       <h3 align="center" style="margin-bottom: 20px;">
-        <span style="background: linear-gradient(90deg, #ff6b6b, #f9ca24, #00d9ff); background-clip: text; -webkit-background-clip: text; color: transparent;">🔥 CURRENT OBSESSION 🔥</span>
+        <span style="background: linear-gradient(90deg, #ff6b6b, #f9ca24, #00d9ff, #00ff88); background-clip: text; -webkit-background-clip: text; color: transparent; animation: shimmer 3s infinite;">🔥 CURRENT OBSESSION 🔥</span>
       </h3>
       
       <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-        <div style="background: linear-gradient(135deg, #00d9ff20, #00d9ff05); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #00d9ff40; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-          <span style="font-size: 32px;">🔬</span>
-          <div style="color:#00d9ff; font-weight: bold;">AI-Powered RAG Systems</div>
+        <div style="background: linear-gradient(135deg, #00d9ff20, #00d9ff05); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #00d9ff40; transition: all 0.3s ease; animation: float 3s ease-in-out infinite;" onmouseover="this.style.transform='translateY(-8px)'; this.style.animation='none'" onmouseout="this.style.transform='translateY(0)'; this.style.animation='float 3s ease-in-out infinite'">
+          <span style="font-size: 36px; display: block;">🔬</span>
+          <div style="color:#00d9ff; font-weight: bold; font-size: 14px;">AI-Powered RAG Systems</div>
           <small style="color:#888">LangChain + AWS Bedrock</small>
         </div>
-        <div style="background: linear-gradient(135deg, #ff6b6b20, #ff6b6b05); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #ff6b6b40; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-          <span style="font-size: 32px;">📦</span>
-          <div style="color:#ff6b6b; font-weight: bold;">Scalable MERN Services</div>
+        <div style="background: linear-gradient(135deg, #ff6b6b20, #ff6b6b05); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #ff6b6b40; transition: all 0.3s ease; animation: float 3s ease-in-out infinite 0.5s;" onmouseover="this.style.transform='translateY(-8px)'; this.style.animation='none'" onmouseout="this.style.transform='translateY(0)'; this.style.animation='float 3s ease-in-out infinite 0.5s'">
+          <span style="font-size: 36px; display: block;">📦</span>
+          <div style="color:#ff6b6b; font-weight: bold; font-size: 14px;">Scalable MERN Services</div>
           <small style="color:#888">Microservices Architecture</small>
         </div>
-        <div style="background: linear-gradient(135deg, #534AB720, #534AB705); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #534AB740; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-          <span style="font-size: 32px;">☁️</span>
-          <div style="color:#534AB7; font-weight: bold;">Terraform AWS Infra</div>
+        <div style="background: linear-gradient(135deg, #534AB720, #534AB705); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #534AB740; transition: all 0.3s ease; animation: float 3s ease-in-out infinite 1s;" onmouseover="this.style.transform='translateY(-8px)'; this.style.animation='none'" onmouseout="this.style.transform='translateY(0)'; this.style.animation='float 3s ease-in-out infinite 1s'">
+          <span style="font-size: 36px; display: block;">☁️</span>
+          <div style="color:#534AB7; font-weight: bold; font-size: 14px;">Terraform AWS Infra</div>
           <small style="color:#888">Infrastructure as Code</small>
         </div>
-        <div style="background: linear-gradient(135deg, #f9ca2420, #f9ca2405); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #f9ca2440; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-          <span style="font-size: 32px;">🤖</span>
-          <div style="color:#f9ca24; font-weight: bold;">LangGraph Agents</div>
+        <div style="background: linear-gradient(135deg, #00ff8820, #00ff8805); border-radius: 24px; padding: 15px 25px; text-align: center; border: 1px solid #00ff8840; transition: all 0.3s ease; animation: float 3s ease-in-out infinite 1.5s;" onmouseover="this.style.transform='translateY(-8px)'; this.style.animation='none'" onmouseout="this.style.transform='translateY(0)'; this.style.animation='float 3s ease-in-out infinite 1.5s'">
+          <span style="font-size: 36px; display: block;">🤖</span>
+          <div style="color:#00ff88; font-weight: bold; font-size: 14px;">LangGraph Agents</div>
           <small style="color:#888">Multi-step AI Workflows</small>
         </div>
       </div>
@@ -189,41 +226,69 @@ print(f"⚡ Superpower: {me.superpower()}")
     <img src="https://img.shields.io/badge/💡_AI_NATIVE-ff6b6b?style=for-the-badge&labelColor=0D1117&logo=openai&logoColor=white"/>
     <img src="https://img.shields.io/badge/☁️_CLOUD_EXPERT-534AB7?style=for-the-badge&labelColor=0D1117&logo=amazonaws&logoColor=white"/>
     <img src="https://img.shields.io/badge/⚡_FULL_STACK_MASTER-f9ca24?style=for-the-badge&labelColor=0D1117&logo=react&logoColor=white"/>
-    <img src="https://img.shields.io/badge/🐳_DEVOPS_READY-2496ED?style=for-the-badge&labelColor=0D1117&logo=docker&logoColor=white"/>
+    <img src="https://img.shields.io/badge/🐳_DEVOPS_READY-00ff88?style=for-the-badge&labelColor=0D1117&logo=docker&logoColor=white"/>
   </div>
 </div>
 
 <!-- ANIMATED QUOTE BANNER -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=24&duration=2000&pause=600&color=FF6B6B&center=true&vCenter=true&width=600&lines=%E2%9C%A8+%22Make+it+work%2C+make+it+fast%2C+make+it+beautiful%22+%E2%9C%A8;%F0%9F%8E%AF+%22286ms+%E2%86%92+2ms+is+just+the+beginning%22+%F0%9F%8E%AF;%E2%9A%A1+%22Optimization+is+my+meditation%22+%E2%9A%A1" alt="Quote Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=24&duration=2000&pause=600&color=FF6B6B&center=true&vCenter=true&width=650&lines=%E2%9C%A8+%22Make+it+work%2C+make+it+fast%2C+make+it+beautiful%22+%E2%9C%A8;%F0%9F%8E%AF+%22286ms+%E2%86%92+2ms+is+just+the+beginning%22+%F0%9F%8E%AF;%E2%9A%A1+%22Optimization+is+my+meditation%22+%E2%9A%A1;%F0%9F%8C%9F+%22Every+line+of+code+tells+a+story%22+%F0%9F%8C%9F" alt="Quote Typing" />
 </div>
 
 </div>
 
 <style>
 @keyframes gradientShift {
-  0% { background-position: 0% 50%; }
+  0%, 100% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-@keyframes borderRotate {
-  0% { border-color: #00d9ff; }
-  33% { border-color: #ff6b6b; }
-  66% { border-color: #534AB7; }
-  100% { border-color: #00d9ff; }
 }
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   100% { background-position: 200% 50%; }
 }
 @keyframes shimmer {
-  0% { opacity: 0.7; }
-  50% { opacity: 1; text-shadow: 0 0 10px currentColor; }
-  100% { opacity: 0.7; }
+  0% { opacity: 0.7; text-shadow: none; }
+  50% { opacity: 1; text-shadow: 0 0 15px currentColor; }
+  100% { opacity: 0.7; text-shadow: none; }
 }
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+@keyframes pulseRed {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+@keyframes pulseYellow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+@keyframes pulseGreen {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+@keyframes rainbowBorder {
+  0% { border-color: #00d9ff; box-shadow: 0 0 10px rgba(0,217,255,0.3); }
+  25% { border-color: #ff6b6b; box-shadow: 0 0 10px rgba(255,107,107,0.3); }
+  50% { border-color: #534AB7; box-shadow: 0 0 10px rgba(83,74,183,0.3); }
+  75% { border-color: #f9ca24; box-shadow: 0 0 10px rgba(249,202,36,0.3); }
+  100% { border-color: #00d9ff; box-shadow: 0 0 10px rgba(0,217,255,0.3); }
+}
+@keyframes loadingBar {
+  0% { width: 0%; }
+  100% { width: 99.3%; }
+}
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 </style>
 
@@ -253,10 +318,10 @@ print(f"⚡ Superpower: {me.superpower()}")
         <h2 style="margin:10px 0; color:#fff">40%</h2>
         <p style="color:#aaa">Deployment Effort Cut<br/><span style="color:#534AB7; font-size:12px">Terraform IaC</span></p>
       </td>
-      <td align="center" width="25%" style="background: linear-gradient(145deg, #f9ca2410, #f9ca2405); border-radius: 20px; padding: 20px; backdrop-filter: blur(2px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-        <h3 style="color: #f9ca24; margin:0">🤖</h3>
+      <td align="center" width="25%" style="background: linear-gradient(145deg, #00ff8810, #00ff8805); border-radius: 20px; padding: 20px; backdrop-filter: blur(2px); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+        <h3 style="color: #00ff88; margin:0">🤖</h3>
         <h2 style="margin:10px 0; color:#fff">~85%</h2>
-        <p style="color:#aaa">LLM Cost Reduction<br/><span style="color:#f9ca24; font-size:12px">Redis + RAG Caching</span></p>
+        <p style="color:#aaa">LLM Cost Reduction<br/><span style="color:#00ff88; font-size:12px">Redis + RAG Caching</span></p>
       </td>
     </tr>
   </table>
@@ -308,8 +373,8 @@ print(f"⚡ Superpower: {me.superpower()}")
         </ul>
         <p align="center"><a href="https://github.com/Harimanikanta01/Software-Teams"><img src="https://img.shields.io/badge/🔗_VIEW_REPO-181717?style=for-the-badge&logo=github&logoColor=white"/></a></p>
       </td>
-      <td width="50%" valign="top" style="background: linear-gradient(145deg, #0D1117, #0a0c10); border-radius: 24px; padding: 20px; border: 1px solid #f9ca2430; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.borderColor='#f9ca24'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#f9ca2430'">
-        <h3 align="center" style="color:#f9ca24;">🛒 Full-Stack E-Commerce</h3>
+      <td width="50%" valign="top" style="background: linear-gradient(145deg, #0D1117, #0a0c10); border-radius: 24px; padding: 20px; border: 1px solid #00ff8830; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.borderColor='#00ff88'" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#00ff8830'">
+        <h3 align="center" style="color:#00ff88;">🛒 Full-Stack E-Commerce</h3>
         <p align="center"><em>MERN · AWS S3/Lambda · LIVE!</em></p>
         <ul style="color:#ccc">
           <li>✅ 20+ REST APIs (catalog, cart, orders)</li>
